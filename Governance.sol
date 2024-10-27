@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFractio
 import "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol";
 import "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol";
 
-contract GovernorContract is
+contract ToadDaoGovernorContract is
   Governor,
   GovernorSettings,
   GovernorCountingSimple,
